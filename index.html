@@ -4,7 +4,9 @@
 <title>MBD Games</title>
 <link rel="stylesheet" href="/Style/index.css">
 <script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+<script src="/Script/index.js"></script>
 <meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="https://mbd-blog-cdn.madebydanny.uk/icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
@@ -20,12 +22,16 @@
   <nav>
     <h1>MBD Games</h1>
     <div class="vertical-menu">
-      <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-      <a href="about.html"><i class="fa-solid fa-info"></i>About</a>
-      <a href="about.html"><i class="fa-solid fa-users"></i>Developers</a>
-      <a href="about.html"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
-      <a href="about.html"><i class="fa-solid fa-gamepad"></i>Games</a>
-      <a href="about.html"><i class="fa-solid fa-info"></i>Info</a>
+      <a class="active" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="about.html"><i class="fa-solid fa-info"></i> About</a>
+      <a href="about.html"><i class="fa-solid fa-users"></i> Developers</a>
+      <a href="about.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+      <a href="about.html"><i class="fa-solid fa-gamepad"></i> Games</a>
+      <a href="proxy.html"><i class="fa-solid fa-globe"></i> Proxy Games</a>
+      <a href="about.html"><i class="fa-solid fa-info"></i> Info</a>
+      <a><button id="toggle-button"><i class="fa-solid fa-circle-half-stroke"></i>Toggle Mode</button></a>
+      <a><button id="translateButton"><i class="fa-solid fa-language"></i>Translate Site</button></a>
+      <div id="google_translate_element" style="display:none;"></div>
       
   </div>
 
@@ -33,10 +39,17 @@
   
   <article>
     <div class="column-1-left">
-      <h2>What is MBD Games</h2>
-      <p>MBD Games is a site/libarry where game devs can puplish there games. <br>These games are embeds from sites such as Make Code Arcade and Scrach. <br>You may chose a provider or a dev form the listings below.</p>
+      <div class="card">
+        <h2>What is MBD Games</h2>
+       <p>MBD Games is a site/libarry where game devs can puplish there games. <br>These games are embeds from sites such as Make Code Arcade and Scrach. <br>You may chose a provider or a dev form the listings below.</p>
+      </div>
     </div>
-    
+    <div class="column-1-right">
+      <div class="card">
+        <h2>Data Info</h2>
+        <p>Our site has Embeds form Scrach and Make Code Arcade. If you are singed into Scrach or Make Code Arcade</p>
+      </div>
+    </div> 
 </section>
 
 <footer>

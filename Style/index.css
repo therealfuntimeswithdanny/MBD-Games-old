@@ -1,20 +1,47 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Style the header */
-  header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-  }
-  
+  box-sizing: border-box;
+}
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-mode {
+  font-family: Arial;
+  padding: 10px;
+  background: #32c4f9;
+  color: black;
+}
+
+body.dark-mode {
+      font-family: Arial;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+body.light-mode .card {
+  background-color: #fe7362;
+  padding: 7px 10px;
+  margin-top: 3px;
+  border: 2px solid #f3ce73;
+
+}
+
+body.dark-mode .card {
+  background-color: black;
+  padding: 7px 10px;
+  margin-top: 3px;
+  border: 2px solid whitesmoke;
+}
+body.light-mode .header {
+  padding: 10px;
+  background: #fe7362;
+
+}
+
+body.dark-mode .header {
+  background-color: rgb(142, 160, 166);;
+  padding:10px;
+}
   /* Create two columns/boxes that floats next to each other */
   nav {
     float: left;
@@ -48,7 +75,7 @@
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #32c4f9;
+    background-color: #f3ce73;
     height: 500px; /* only for demonstration, should be removed */
   }
   
@@ -61,7 +88,7 @@
   
   /* Style the footer */
   footer {
-    background-color: #f3ce73;
+    background-color: #fe7362;
     padding: 10px;
     text-align: center;
     color: white;
@@ -75,16 +102,35 @@
     }
   }
   .column-1-left{
-    background-color: #fe7362;
     width: 66%;
+    float: left;
+    padding: 7px 10px;
+    margin-top: 3px;
   }
 
   .column-1-right{
-    background-color: #fe7362;
     width: 33%;
+    float: left;
+    padding: 7px 10px;
+    margin-top: 3px;
   }
   .column {
     float: left;
     padding: 7px 10px;
     margin-top: 3px;
+  }
+  div.card:hover {
+    border: 4px solid #f3ce73;
+  }
+  .active{
+    background-color: #32c4f9;
+  }
+  .header-row{
+    float: left;
+    padding: 7px 10px;
+    margin-top: 3px;
+    width: 33%;
+    background-color: #f3ce73;
+    border-color: #fe7362;
+    border: 2px solid #f3ce73;
   }
