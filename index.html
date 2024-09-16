@@ -1,101 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>MBD Games</title>
+<link rel="stylesheet" href="/Style/index.css">
+<script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
 </style>
 </head>
 <body>
 
 
-
-<header>
-  <h2>MBD Games</h2>
-</header>
+  
+  <img src="https://games-cdn.madebydanny.uk/Design%2013.png" alt="Header | MBD CDN Error" width="100%" height="auto">
 
 <section>
   <nav>
-    <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-    </ul>
+    <h1>MBD Games</h1>
+    <div class="vertical-menu">
+      <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="about.html"><i class="fa-solid fa-info"></i>About</a>
+      <a href="about.html"><i class="fa-solid fa-users"></i>Developers</a>
+      <a href="about.html"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+      <a href="about.html"><i class="fa-solid fa-gamepad"></i>Games</a>
+      <a href="about.html"><i class="fa-solid fa-info"></i>Info</a>
+      
+  </div>
+
   </nav>
   
   <article>
-    <h1>This site is in beta</h1>
-    <p></p>
-    <p></p>
-  </article>
+    <div class="column-1-left">
+      <h2>What is MBD Games</h2>
+      <p>MBD Games is a site/libarry where game devs can puplish there games. <br>These games are embeds from sites such as Make Code Arcade and Scrach. <br>You may chose a provider or a dev form the listings below.</p>
+    </div>
+    
 </section>
 
 <footer>
-  <p></p>
+  <p>Copyright 2024 MBD Team | Powerd By MBD CDN | Hosted in Github Pages</p>
 </footer>
 
 </body>
 </html>
+
