@@ -46,7 +46,7 @@ body.dark-mode .header {
   nav {
     float: left;
     width: 30%;
-    height: 1000px; /* only for demonstration, should be removed */
+    height: 1500px; /* only for demonstration, should be removed */
     background: #fe7362;
     padding: 20px;
   }
@@ -76,7 +76,7 @@ body.dark-mode .header {
     padding: 20px;
     width: 70%;
     background-color: #f3ce73;
-    height: 1000px; /* only for demonstration, should be removed */
+    height: 1500px; /* only for demonstration, should be removed */
   }
   
   /* Clear floats after the columns */
@@ -120,24 +120,30 @@ body.dark-mode .header {
     margin-top: 3px;
   }
   div.card:hover {
-    border: 4px solid #f3ce73;
+    border: 4px solid #32c4f9;
   }
   .active{
-    background-color: #32c4f9;
+    background-color: #2decb7;
   }
   .header-row{
     float: left;
     padding: 7px 10px;
     margin-top: 3px;
-    width: 33%;
-    background-color: #f3ce73;
-    border-color: #fe7362;
-    border: 2px solid #f3ce73;
+    width: 100%;
+    background-color: #fe7362;
+    border-color: #f3ce73;
+    border: 2px solid #fe7362;
   }
   .game {
     float: left;
     width: 33.33%;
     background-color: #fe7362;
-    padding: 10px;
+    padding: 7px 10px;
+    margin-top: 3px;
   }
-    
+  .column-2-left{
+    width: 33%;
+    float: left;
+    padding: 7px 10px;
+    margin-top: 3px;
+  }
