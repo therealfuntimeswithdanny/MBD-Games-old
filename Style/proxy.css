@@ -18,7 +18,7 @@ body.dark-mode {
   background-color: black;
   color: white;
 }
-body.light-mode .card {
+body.light-mode .game {
   background-color: #fe7362;
   padding: 7px 10px;
   margin-top: 3px;
@@ -26,21 +26,25 @@ body.light-mode .card {
 
 }
 
-body.dark-mode .card {
+body.dark-mode .game {
   background-color: black;
   padding: 7px 10px;
   margin-top: 3px;
   border: 2px solid whitesmoke;
 }
-body.light-mode .header {
-  padding: 10px;
+body.light-mode .article {
   background: #fe7362;
+  float: left;
+    height: 2500px; /* only for demonstration, should be removed */
+    padding: 20px;
 
 }
 
-body.dark-mode .header {
-  background-color: rgb(142, 160, 166);;
-  padding:10px;
+body.dark-mode .article {
+  float: left;
+  height: 2500px; /* only for demonstration, should be removed */
+  background: #bca7d4;
+  padding: 20px;
 }
   /* Create two columns/boxes that floats next to each other */
   nav {
@@ -136,7 +140,7 @@ body.dark-mode .header {
   }
   .game {
     float: left;
-    width: 33.33%;
+    width: 25%;
     background-color: #fe7362;
     padding: 7px 10px;
     margin-top: 3px;
