@@ -50,7 +50,7 @@ body.dark-mode .article {
   nav {
     float: left;
     width: 30%;
-    height: 2500px; /* only for demonstration, should be removed */
+    height: 3300px; /* only for demonstration, should be removed */
     background: #fe7362;
     padding: 20px;
   }
@@ -80,7 +80,7 @@ body.dark-mode .article {
     padding: 20px;
     width: 70%;
     background-color: #f3ce73;
-    height: 2500px; /* only for demonstration, should be removed */
+    height: 3300px; /* only for demonstration, should be removed */
   }
   
   /* Clear floats after the columns */
