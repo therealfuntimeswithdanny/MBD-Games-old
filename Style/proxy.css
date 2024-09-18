@@ -50,7 +50,7 @@ body.dark-mode .article {
   nav {
     float: left;
     width: 30%;
-    height: 3300px; /* only for demonstration, should be removed */
+    height: 5000px; /* only for demonstration, should be removed */
     background: #fe7362;
     padding: 20px;
   }
@@ -80,7 +80,7 @@ body.dark-mode .article {
     padding: 20px;
     width: 70%;
     background-color: #f3ce73;
-    height: 3300px; /* only for demonstration, should be removed */
+    height: 5000px; /* only for demonstration, should be removed */
   }
   
   /* Clear floats after the columns */
@@ -145,9 +145,10 @@ body.dark-mode .article {
     padding: 7px 10px;
     margin-top: 3px;
   }
-  .column-2-left{
-    width: 33%;
+  .column-2 {
     float: left;
+    width: 20%;
+    background-color: #fe7362;
     padding: 7px 10px;
     margin-top: 3px;
   }
