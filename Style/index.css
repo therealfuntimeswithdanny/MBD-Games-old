@@ -147,3 +147,43 @@ body.dark-mode .header {
     padding: 7px 10px;
     margin-top: 3px;
   }
+
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f3ce73;
+    color: #fe7362;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #32c4f9;
+}
