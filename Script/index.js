@@ -76,7 +76,7 @@ document.getElementById('translateButton').addEventListener('click', function() 
 });
 function checkPassword() {
     const password = document.getElementById('password').value;
-    if (password === 'acps') {
+    if (password === 'mbduk') {
         document.getElementById('passwordPopup').style.display = 'none';
         document.getElementById('content').style.display = 'block';
     } else {
