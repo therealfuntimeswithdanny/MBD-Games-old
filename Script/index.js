@@ -76,7 +76,7 @@ document.getElementById('translateButton').addEventListener('click', function() 
 });
 function checkPassword() {
     const password = document.getElementById('password').value;
-    if (password === '#100&-7') {
+    if (password === '@100&-7') {
         document.getElementById('passwordPopup').style.display = 'none';
         document.getElementById('content').style.display = 'block';
     } else {
