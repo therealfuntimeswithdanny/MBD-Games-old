@@ -76,10 +76,10 @@ document.getElementById('translateButton').addEventListener('click', function() 
 });
 function checkPassword() {
     const password = document.getElementById('password').value;
-    if (password === 'mvcs') {
+    if (password === '#100&-7') {
         document.getElementById('passwordPopup').style.display = 'none';
         document.getElementById('content').style.display = 'block';
     } else {
-        alert('The Admin Password You Typed Is Worng. Please try again.');
+        alert('Access Denied. To code you enterd was incorrect ');
     }
 }
