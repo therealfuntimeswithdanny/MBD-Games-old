@@ -78,7 +78,7 @@ body.dark-mode .article {
   article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 100%;
     background-color: #f3ce73;
     height: 5000px; /* only for demonstration, should be removed */
   }
